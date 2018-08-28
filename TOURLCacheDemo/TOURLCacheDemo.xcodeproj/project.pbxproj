@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA07C682213527B300551CE0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA07C681213527B300551CE0 /* AppDelegate.m */; };
+		EA07C685213527B300551CE0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA07C684213527B300551CE0 /* ViewController.m */; };
+		EA07C68A213527B500551CE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA07C689213527B500551CE0 /* Assets.xcassets */; };
+		EA07C68D213527B500551CE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA07C68B213527B500551CE0 /* LaunchScreen.storyboard */; };
+		EA07C690213527B500551CE0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA07C68F213527B500551CE0 /* main.m */; };
+		EA07C69A213527B500551CE0 /* TOURLCacheDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA07C699213527B500551CE0 /* TOURLCacheDemoTests.m */; };
+		EA07C6A5213527B500551CE0 /* TOURLCacheDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EA07C6A4213527B500551CE0 /* TOURLCacheDemoUITests.m */; };
+		EAD69ACE2135508300E9FCCD /* TOURLCacheProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD69ACC2135508300E9FCCD /* TOURLCacheProtocol.m */; };
+		EAD69ACF2135508300E9FCCD /* TOURLSessionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EAD69ACD2135508300E9FCCD /* TOURLSessionDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA07C696213527B500551CE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA07C675213527B300551CE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA07C67C213527B300551CE0;
+			remoteInfo = TOURLCacheDemo;
+		};
+		EA07C6A1213527B500551CE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA07C675213527B300551CE0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA07C67C213527B300551CE0;
+			remoteInfo = TOURLCacheDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EA07C6CD21354F1200551CE0 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EA07C67D213527B300551CE0 /* TOURLCacheDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TOURLCacheDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA07C680213527B300551CE0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EA07C681213527B300551CE0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EA07C683213527B300551CE0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EA07C684213527B300551CE0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EA07C689213527B500551CE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA07C68C213527B500551CE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA07C68E213527B500551CE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA07C68F213527B500551CE0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA07C695213527B500551CE0 /* TOURLCacheDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TOURLCacheDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA07C699213527B500551CE0 /* TOURLCacheDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TOURLCacheDemoTests.m; sourceTree = "<group>"; };
+		EA07C69B213527B500551CE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA07C6A0213527B500551CE0 /* TOURLCacheDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TOURLCacheDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA07C6A4213527B500551CE0 /* TOURLCacheDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TOURLCacheDemoUITests.m; sourceTree = "<group>"; };
+		EA07C6A6213527B500551CE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAD69AC82135508300E9FCCD /* TOURLCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOURLCache.h; sourceTree = "<group>"; };
+		EAD69AC92135508300E9FCCD /* TOURLSessionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOURLSessionDelegate.h; sourceTree = "<group>"; };
+		EAD69ACA2135508300E9FCCD /* TOURLCacheProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOURLCacheProtocol.h; sourceTree = "<group>"; };
+		EAD69ACB2135508300E9FCCD /* TOURLCacheHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOURLCacheHeader.h; sourceTree = "<group>"; };
+		EAD69ACC2135508300E9FCCD /* TOURLCacheProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOURLCacheProtocol.m; sourceTree = "<group>"; };
+		EAD69ACD2135508300E9FCCD /* TOURLSessionDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOURLSessionDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA07C67A213527B300551CE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA07C692213527B500551CE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA07C69D213527B500551CE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA07C674213527B300551CE0 = {
+			isa = PBXGroup;
+			children = (
+				EAD69AC72135508300E9FCCD /* TOURLCache */,
+				EA07C67F213527B300551CE0 /* TOURLCacheDemo */,
+				EA07C698213527B500551CE0 /* TOURLCacheDemoTests */,
+				EA07C6A3213527B500551CE0 /* TOURLCacheDemoUITests */,
+				EA07C67E213527B300551CE0 /* Products */,
+				EA07C6B22135283F00551CE0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EA07C67E213527B300551CE0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA07C67D213527B300551CE0 /* TOURLCacheDemo.app */,
+				EA07C695213527B500551CE0 /* TOURLCacheDemoTests.xctest */,
+				EA07C6A0213527B500551CE0 /* TOURLCacheDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA07C67F213527B300551CE0 /* TOURLCacheDemo */ = {
+			isa = PBXGroup;
+			children = (
+				EA07C680213527B300551CE0 /* AppDelegate.h */,
+				EA07C681213527B300551CE0 /* AppDelegate.m */,
+				EA07C683213527B300551CE0 /* ViewController.h */,
+				EA07C684213527B300551CE0 /* ViewController.m */,
+				EA07C689213527B500551CE0 /* Assets.xcassets */,
+				EA07C68B213527B500551CE0 /* LaunchScreen.storyboard */,
+				EA07C68E213527B500551CE0 /* Info.plist */,
+				EA07C68F213527B500551CE0 /* main.m */,
+			);
+			path = TOURLCacheDemo;
+			sourceTree = "<group>";
+		};
+		EA07C698213527B500551CE0 /* TOURLCacheDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA07C699213527B500551CE0 /* TOURLCacheDemoTests.m */,
+				EA07C69B213527B500551CE0 /* Info.plist */,
+			);
+			path = TOURLCacheDemoTests;
+			sourceTree = "<group>";
+		};
+		EA07C6A3213527B500551CE0 /* TOURLCacheDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EA07C6A4213527B500551CE0 /* TOURLCacheDemoUITests.m */,
+				EA07C6A6213527B500551CE0 /* Info.plist */,
+			);
+			path = TOURLCacheDemoUITests;
+			sourceTree = "<group>";
+		};
+		EA07C6B22135283F00551CE0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EAD69AC72135508300E9FCCD /* TOURLCache */ = {
+			isa = PBXGroup;
+			children = (
+				EAD69AC82135508300E9FCCD /* TOURLCache.h */,
+				EAD69AC92135508300E9FCCD /* TOURLSessionDelegate.h */,
+				EAD69ACA2135508300E9FCCD /* TOURLCacheProtocol.h */,
+				EAD69ACB2135508300E9FCCD /* TOURLCacheHeader.h */,
+				EAD69ACC2135508300E9FCCD /* TOURLCacheProtocol.m */,
+				EAD69ACD2135508300E9FCCD /* TOURLSessionDelegate.m */,
+			);
+			path = TOURLCache;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA07C67C213527B300551CE0 /* TOURLCacheDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA07C6A9213527B500551CE0 /* Build configuration list for PBXNativeTarget "TOURLCacheDemo" */;
+			buildPhases = (
+				EA07C679213527B300551CE0 /* Sources */,
+				EA07C67A213527B300551CE0 /* Frameworks */,
+				EA07C67B213527B300551CE0 /* Resources */,
+				EA07C6CD21354F1200551CE0 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TOURLCacheDemo;
+			productName = TOURLCacheDemo;
+			productReference = EA07C67D213527B300551CE0 /* TOURLCacheDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA07C694213527B500551CE0 /* TOURLCacheDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA07C6AC213527B500551CE0 /* Build configuration list for PBXNativeTarget "TOURLCacheDemoTests" */;
+			buildPhases = (
+				EA07C691213527B500551CE0 /* Sources */,
+				EA07C692213527B500551CE0 /* Frameworks */,
+				EA07C693213527B500551CE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA07C697213527B500551CE0 /* PBXTargetDependency */,
+			);
+			name = TOURLCacheDemoTests;
+			productName = TOURLCacheDemoTests;
+			productReference = EA07C695213527B500551CE0 /* TOURLCacheDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EA07C69F213527B500551CE0 /* TOURLCacheDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA07C6AF213527B500551CE0 /* Build configuration list for PBXNativeTarget "TOURLCacheDemoUITests" */;
+			buildPhases = (
+				EA07C69C213527B500551CE0 /* Sources */,
+				EA07C69D213527B500551CE0 /* Frameworks */,
+				EA07C69E213527B500551CE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA07C6A2213527B500551CE0 /* PBXTargetDependency */,
+			);
+			name = TOURLCacheDemoUITests;
+			productName = TOURLCacheDemoUITests;
+			productReference = EA07C6A0213527B500551CE0 /* TOURLCacheDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA07C675213527B300551CE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = TonyJR;
+				TargetAttributes = {
+					EA07C67C213527B300551CE0 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					EA07C694213527B500551CE0 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = EA07C67C213527B300551CE0;
+					};
+					EA07C69F213527B500551CE0 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = EA07C67C213527B300551CE0;
+					};
+				};
+			};
+			buildConfigurationList = EA07C678213527B300551CE0 /* Build configuration list for PBXProject "TOURLCacheDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA07C674213527B300551CE0;
+			productRefGroup = EA07C67E213527B300551CE0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA07C67C213527B300551CE0 /* TOURLCacheDemo */,
+				EA07C694213527B500551CE0 /* TOURLCacheDemoTests */,
+				EA07C69F213527B500551CE0 /* TOURLCacheDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA07C67B213527B300551CE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA07C68D213527B500551CE0 /* LaunchScreen.storyboard in Resources */,
+				EA07C68A213527B500551CE0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA07C693213527B500551CE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA07C69E213527B500551CE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA07C679213527B300551CE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA07C685213527B300551CE0 /* ViewController.m in Sources */,
+				EA07C690213527B500551CE0 /* main.m in Sources */,
+				EA07C682213527B300551CE0 /* AppDelegate.m in Sources */,
+				EAD69ACF2135508300E9FCCD /* TOURLSessionDelegate.m in Sources */,
+				EAD69ACE2135508300E9FCCD /* TOURLCacheProtocol.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA07C691213527B500551CE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA07C69A213527B500551CE0 /* TOURLCacheDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA07C69C213527B500551CE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA07C6A5213527B500551CE0 /* TOURLCacheDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA07C697213527B500551CE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA07C67C213527B300551CE0 /* TOURLCacheDemo */;
+			targetProxy = EA07C696213527B500551CE0 /* PBXContainerItemProxy */;
+		};
+		EA07C6A2213527B500551CE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA07C67C213527B300551CE0 /* TOURLCacheDemo */;
+			targetProxy = EA07C6A1213527B500551CE0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EA07C68B213527B500551CE0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA07C68C213527B500551CE0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA07C6A7213527B500551CE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EA07C6A8213527B500551CE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA07C6AA213527B500551CE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8YWC8ZUV92;
+				INFOPLIST_FILE = TOURLCacheDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = coco3g.tools.TOURLCacheDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		EA07C6AB213527B500551CE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8YWC8ZUV92;
+				INFOPLIST_FILE = TOURLCacheDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = coco3g.tools.TOURLCacheDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		EA07C6AD213527B500551CE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8YWC8ZUV92;
+				INFOPLIST_FILE = TOURLCacheDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = coco3g.tools.TOURLCacheDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TOURLCacheDemo.app/TOURLCacheDemo";
+			};
+			name = Debug;
+		};
+		EA07C6AE213527B500551CE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8YWC8ZUV92;
+				INFOPLIST_FILE = TOURLCacheDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = coco3g.tools.TOURLCacheDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TOURLCacheDemo.app/TOURLCacheDemo";
+			};
+			name = Release;
+		};
+		EA07C6B0213527B500551CE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8YWC8ZUV92;
+				INFOPLIST_FILE = TOURLCacheDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = coco3g.tools.TOURLCacheDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TOURLCacheDemo;
+			};
+			name = Debug;
+		};
+		EA07C6B1213527B500551CE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8YWC8ZUV92;
+				INFOPLIST_FILE = TOURLCacheDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = coco3g.tools.TOURLCacheDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TOURLCacheDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA07C678213527B300551CE0 /* Build configuration list for PBXProject "TOURLCacheDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA07C6A7213527B500551CE0 /* Debug */,
+				EA07C6A8213527B500551CE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA07C6A9213527B500551CE0 /* Build configuration list for PBXNativeTarget "TOURLCacheDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA07C6AA213527B500551CE0 /* Debug */,
+				EA07C6AB213527B500551CE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA07C6AC213527B500551CE0 /* Build configuration list for PBXNativeTarget "TOURLCacheDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA07C6AD213527B500551CE0 /* Debug */,
+				EA07C6AE213527B500551CE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA07C6AF213527B500551CE0 /* Build configuration list for PBXNativeTarget "TOURLCacheDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA07C6B0213527B500551CE0 /* Debug */,
+				EA07C6B1213527B500551CE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA07C675213527B300551CE0 /* Project object */;
+}
